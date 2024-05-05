@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
+		"start": "const Oluwatimileyin = ( name, passion ) =>",
 		"end": "Hello, my name is",
 		"speed": 60,
 		"deletionSpeed": 80,
@@ -11,11 +11,11 @@
 	},
 
 	"header": {
-		"name": "Andrew Nelson.",
-		"usp": "I design and build meaningful experiences."
+		"name": "Oluwatimileyin Adewumi.",
+		"usp": "I Engineer and build meaningful experiences."
 	},
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": "I am a code artist, crafting elegant solutions that power modern technology. With an insatiable curiosity and unwavering dedication to continuous growth, I push the boundaries of what's possible in software engineering. My goal is not just to build functional tools, but to create experiences that inspire and engage, leaving a positive mark on the world.",
 
 	"buttons": {
 		"primary": {

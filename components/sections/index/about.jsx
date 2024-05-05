@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 // Core packages
 import Image from 'next/image'
 
@@ -30,11 +31,11 @@ export default function About() {
 				<SectionTitle
 					title="About Me"
 					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+					subTitle="As a versatile software engineer with extensive full-stack development expertise, I bring together skills in both front-end and back-end technologies along with proficiency in cloud deployment and project management. Beyond technical abilities, I also have a keen eye for user experience (UX) and interface (UI) design, ensuring every solution delivers engaging functionality while meeting high aesthetic standards. This comprehensive approach allows me to drive successful projects from initial concept through final implementation, making me a valuable asset to any team."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
+						<img src="/img/picture2.jpeg" alt="Oluwatimileyin photo"/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
@@ -43,16 +44,16 @@ export default function About() {
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							copy="Beyond my design and technical prowess, I pride myself on robust leadership, time management, and multitasking capabilities honed daily as a startup founder and dedicated family man. In my personal life, you can find me immersed in strategic board games or outdoors enjoying sports like basketball. As a passionate individual committed to innovation, I thrive in fast-paced environments where collaboration drives success. Rest assured, I will channel my energy and expertise into delivering exceptional results for any project I join."
 						/>
 						<BadgesBlock 
-							title="Reasearch and planning" 
+							title="Reasearch, Creativity and Engineering" 
 							containerClass={about.container}
 							list={methods} 
 							fullContainer="fullContainer"
 							block="methods" 
 							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
+							copy="When it comes to creation, one thing I truly cherish is designing the blueprint of a project. Whether we're talking about intricate design systems or cohesive brand strategies, I delight in refining all facets of user experience. At heart, I'm an inventor who loves tackling real-world challenges head-on. By thinking outside the box, I devise innovative solutions that enhance usability and transform ideas into tangible outcomes. Let's embark on a journey to build remarkable products that captivate audiences and exceed expectations!"
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
 						/>
@@ -64,10 +65,10 @@ export default function About() {
 }
 
 const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
+	{ key: 'planet-moon', 		name: 'Software Architecture', 		type: 'fad' },
 	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
-	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
+	{ key: 'window', 			name: 'Database Management', 	type: 'fad' },
+	{ key: 'cubes', 			name: 'Continuous Integration/ Continuous Deployment (CI/CD)', 	type: 'far' },
+	{ key: 'layer-plus', 		name: 'Documentation', 	type: 'fad' },
+	{ key: 'solar-system', 		name: 'Testing and Debugging', 		type: 'fad' },
 ]

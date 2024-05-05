@@ -32,7 +32,7 @@ export default function Footer() {
 		<footer className={css.container}>
 			<Container spacing={['verticalXXLrg', 'bottomLrg']}>
 				<section className={css.sections}>
-					<ul className={css.thanks}>
+					{/* <ul className={css.thanks}>
 						<li><h4>Acknowledgments</h4></li>
 						{
 						content.acknowledgments.map( ({ person, link, note }, index) => {
@@ -57,7 +57,7 @@ export default function Footer() {
 							)
 						})
 						}
-					</ul>
+					</ul> */}
 					<ul className={css.social}>
 						<li><h4>Social</h4></li>
 						<li className={css.socialList}>

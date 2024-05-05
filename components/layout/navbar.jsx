@@ -7,6 +7,8 @@ import ThemeMode from '../utils/theme.util'
 import settings from '../../content/_settings.json'
 import content  from '../../content/navbar.json'
 import css from '../../styles/structure/navbar.module.scss'
+import button from '../../styles/blocks/button.module.scss';
+
 
 export default function Navbar() {
 
@@ -157,6 +159,12 @@ export default function Navbar() {
 						}
 						<li>
 							<ThemeMode />
+						</li>
+						<li>
+							<button	className={`button ${button.primary}`}
+								onClick={ ()=> window.open("https://www.linkedin.com/in/oluwatimileyin-adewumi-ba5048226/", "_blank") } >
+								Resume
+							</button>
 						</li>
 					</ul>
 				</li>
